@@ -1,398 +1,165 @@
-# TickAppy1
+# 📌 Título del Proyecto
 
-<!doctype html>
-<html lang="es">
-    <head>
-        <meta charset="TickAppy">
-        <meta name="description" content="TickAppy">
-        <meta name="keywords" content="Ejemplo de HTML5,CCS3,JAVAScript">
-        <title>TickAppy </title>
-    </head>
-    <body bgcolor="211C1B">
-        <center>
-            <img src="Logo.png" alt="" width="1350">
-               <br>
-               <form action="Ingresar.html">
-                <input type="submit" value="Inicio" />
-        </form>    
-<br>
-<form action="Registrarse.html">
-    <input type="submit" value="Registrarse" />
-</center>
-    </body> 
-</html>
+Nombre autoexplicativo del proyecto, con una breve descripción clara y directa de lo que hace.
 
-<!DOCTYPE html>
-<html lang="es">
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
+![Coverage](https://img.shields.io/badge/coverage-95%25-blue)
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewsport" content="width=device-width, initial-scale=1.0">
-    <title>TickAppy.Login</title>
-    <link rel="stylesheet" href="css/registro.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+## 🧠 Descripción
 
-<body>
-    <br>
-    <br>
-    <br>
-    <br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br>
-   <center> <form action="PaginaPrinci.html"> 
-        <h1 class="title" style="color: white">Registro</h1>
-        <h2 style="color: white">Crea tu usuario</h2>
-        <label><br>
-            <i class="fa-solid fa-user" ></i>
-            Ingresa tu nombre<input type="text" id="username">
-        </label>
-        <label><br>
-          <i class="fa-solid fa-user" ></i>
-          Ingresa tu correo<input type="text" id="email"> 
-      </label>
-        <label><br>
-            <i class="fa-solid fa-lock" ></i>
-            Ingresa tu contraseña<input type="password" id="password">
-        </label><br>
-        <form action="PaginaPrinci.html"><br>
-            <input type="submit" value="Inicio" />
-        </form>
-    </center>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="es">
+Una descripción más detallada y técnica del proyecto, incluyendo sus principales características, su propósito y cómo funciona.
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewsport" content="width=device-width, initial-scale=1.0">
-    <title>TickAppy.Login</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+## 🚀 Empezando
 
-<body>
-    <br>
-    <br>
-    <br>
-    <br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br>
-   <center> <form action="PaginaPrinci.html"> 
-        <h1 class="title">Ingreso</h1>
-        <h2>Ingresa tu usuario</h2>
-        <label>
-            <i class="fa-solid fa-user"></i>
-            <input type="text" id="email">
-        </label>
-        
-        <label>
-            <i class="fa-solid fa-lock"></i>
-            <input type="password" id="password">
-        </label>
-        <form action="PaginaPrinci.html">
-            <input type="submit" value="Inicio" />
-        </form>
-    <script src="main.js"></script>
-    </center>
-</body>
+Estas instrucciones te guiarán para obtener una copia de este proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas.
 
-</html>
-<!DOCTYPE html>
-<html lang="es">
-   <head>
-       <meta charset="TickAppy">
-       <meta name="description" content="TickAppy">
-       <meta name="keywords" content="HTML5, CSS3">
-       <header text-alig="center">
-          <title>TickAppy</title>
-          <link rel="stylesheet" href="css/estilos.css">
-          <h1>TickAppy</h1>
-      </header>
-  </head>
-  <body style=" background-color: black;" style text="white">
-   <label>Elige una opcion:</label>
-    <form action="Pagoefectivo.html">
-      <input type="submit" value="Pago con efectivo" /><br>
-    </form>
-      <form action="Pago con tarjeta.html">
-            <input type="submit" value="Pago con tarjeta" /><br>
-       </form>
-        <form action="Wallet.html">
-            <input type="submit" value="Wallet" /><br>
-        </form>
-        <form action="Paypal.html">
-            <input type="submit" value="Paypal" /><br>
-    </form>
-  <center>
-  <form action="Eventos.html" >
-        <input type="submit" value="Eventos" />
-    </form>
-  </center>
-  <footer>
-        <form action="Perfil.html" >
-            <input type="submit" value="Perfil"/>
-        </form>
-    </footer>
-</body>
-</html>
-<!DOCTYPE html>
-<html>
-    <style>
-        table, th, td {
-          border:1px solid rgb(255, 255, 255);
-        }
-        </style>
-<head>
-<title>Tickappy</title>
-</head>
-<body style="background-color:#000000;"TEXT ALIGN="CENTER"Zonas></body>
-<h1 style="color:#FFFFFF;">ZONA</h1>
-<b style="color:#FFFFFF;"> Tus artistas te esperan...</b>
-    <p>Tus artistas te esperan.</p>
-    <h1>Selecciona tus boletos.</h1>
-    <h2>Proximos eventos</h2>
-    <h3>HTML Iframes</h3>
-<p>You can use the height and width attributes to specify the size of the iframe:</p> 
+### 📋 Prerrequisitos
+- Sistema Operativo (por ejemplo, Ubuntu 20.04, Windows 10)
+- Lenguaje de programación: Python 3.10+
+- Framework: Django 4.2
+- Base de datos: PostgreSQL 13+
+- Otros...
+
+### 🔧 Instalación
+
+```bash
+# Paso 1: Clonar el repositorio
+git clone https://github.com/your-user/project.git
+cd project
+
+# Paso 2: Crear entorno virtual (opcional)
+python -m venv venv
+source venv/bin/activate  # En Windows: venv\Scripts\activate
+
+# Paso 3: Instalar dependencias
+pip install -r requirements.txt
+
+# Paso 4: Configurar variables de entorno
+cp .env.example .env
+
+# Paso 5: Ejecutar la aplicación
+python main.py
+```
+
+---
+
+## 🧪 Ejecutando las Pruebas
+
+```bash
+# Ejecutar todas las pruebas
+pytest
+```
+
+### 🔄 Pruebas de Principio a Fin
+
+Estas pruebas cubren flujos completos de usuario como autenticación, creación de entidades, etc.
+
+### ⌨️ Pruebas de Estilo de Código
+
+```bash
+flake8 .
+black --check .
+```
+
+
+## 📦 Despliegue
+
+Para desplegar este proyecto en un entorno de producción:
+
+- Crear contenedor Docker (opcional)
+- Configurar servidor (Heroku, Railway, VPS)
+- Ejecutar migraciones y cargar datos iniciales
+- Configurar variables de entorno en producción
 
 
 
-    <table style="width:100%">
-      <tr style="color:#FFFFFF">
-        <th>Eventos</th>
-        <th>Artista</th>
-        <th>Fechas</th>
-        <th>Dias</th>
-        <th>Horarios</th>
-        <th>Disponibilidad</th>
-        <th>Ubicacion</th>
-      </tr>
-      <tr  style="color:#FFFFFF">
-        <td>Partido de futbol</td>
-        <td>Mexico vs Jamaica</td>
-        <td>Unica 26 de Marzo</td>
-        <td>Domingo</td>
-        <td>6:00 p.m.</td>
-        <td>Disponibilidad Media-Alta</td>
-        <td>Estadio Azteca</td>
-      </tr>
-      
-      <tr  style="color:#FFFFFF">
-        <td>Obra de Teatro</td>
-        <td>Mama Mia</td>
-        <td>04 de Marzo</td>
-        <td>Sabado</td>
-        <td>5:00 p.m.</td>
-        <td>Disponibilidad Media</td>
-        <td>Teatro de los Insurgentes</td>
-      </tr>
-      <tr  style="color:#FFFFFF">
-        <td>Obra de Teatro</td>
-        <td>Mama Mia</td>
-        <td>04 de Marzo</td>
-        <td>Sabado</td>
-        <td>8:45 p.m.</td>
-        <td>Disponibilidad Media</td>
-        <td>Teatro de los Insurgentes</td>
-      </tr>
-      <tr  style="color:#FFFFFF">
-        <td>Obra de Teatro</td>
-        <td>Mama Mia</td>
-        <td>05 de Marzo</td>
-        <td>Domingo</td>
-        <td>5:30 p.m.</td>
-        <td>Disponibilidad Media</td>
-        <td>Teatro de los Insurgentes</td>
-      </tr>
-      <tr  style="color:#FFFFFF">
-        <td>Obra de Teatro</td>
-        <td>Mama Mia</td>
-        <td>10 de Marzo</td>
-        <td>Viernes</td>
-        <td>8:30 p.m.</td>
-        <td>Disponibilidad Media</td>
-        <td>Teatro de los Insurgentes</td>
-      </tr>
-      <tr  style="color:#FFFFFF">
-        <td>Obra de Teatro</td>
-        <td>Mama Mia</td>
-        <td>11 de Marzo</td>
-        <td>Sabado</td>
-        <td>5:00 p.m.</td>
-        <td>Disponibilidad Media</td>
-        <td>Teatro de los Insurgentes</td>
-      </tr>
-      <tr  style="color:#FFFFFF">
-        <td>Obra de Teatro</td>
-        <td>Mama Mia</td>
-        <td>12 de Marzo</td>
-        <td>Domingo</td>
-        <td>1:00 p.m.</td>
-        <td>Disponibilidad Media</td>
-        <td>Teatro de los Insurgentes</td>
-      </tr>
-      <tr  style="color:#FFFFFF">
-        <td>Obra de Teatro</td>
-        <td>Mama Mia</td>
-        <td>12 de Marzo</td>
-        <td>Domingo</td>
-        <td>5:30 p.m.</td>
-        <td>Disponibilidad Media</td>
-        <td>Teatro de los Insurgentes</td>
-      </tr>
-      <tr  style="color:#FFFFFF">
-        <td>Obra de Teatro</td>
-        <td>Mama Mia</td>
-        <td>16 de Marzo</td>
-        <td>Jueves</td>
-        <td>5:00 p.m.</td>
-        <td>Disponibilidad Media</td>
-        <td>Teatro de los Insurgentes</td>
-      </tr>
-      <tr  style="color:#FFFFFF">
-        <td>Obra de Teatro</td>
-        <td>Mama Mia</td>
-        <td>17 de Marzo</td>
-        <td>Viernes</td>
-        <td>8:30 p.m.</td>
-        <td>Disponibilidad Media-Alta</td>
-        <td>Teatro de los Insurgentes</td>
-      </tr>
-    </table><br>
-    <form action="TickAppy.html">
-        <input type="submit" value="Salir" />
-    </form>
-  <script src="main.js"></script>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="es">
-   <head>
-    <center>
-       <meta charset="TickAppy">
-       <meta name="description" content="TickAppy">
-       <meta name="keywords" content="HTML5, CSS3">
-       <header text-align="center">
-          <title>TickAppy</title>
-          <h1>Pago con tarjeta</h1>
-      </header>
-    </head>
-</center>
-  <body style="background-color: black;" style text="white">
-    <p style="text-align: center">El costo de su compra es de (precio) y pagare con: (llenar el formulario de la seleccion)</p><br>
-    <p style="text-align: left">Debito </p>
-    <form action="/my-handling-form-page" method="post" style="text-align:left">
-      <ul>
-       <li>
-         <label for="numero">Numero de tarjeta:</label>
-         <input type="number" id="number" number="num_tar">
-       </li>
-       <li>
-         <label for="Dias">Fecha de vencimiento:</label>
-         <input type="date" id="date" name="fecha_ven">
-       </li>
-       <li>
-         <label for="numero">Codigo de seguridad:</label>
-         <input type="number" id="number" number="cod_seg">
-       </li>
-      </ul>
-     </form>
-    <p style="text-align:right">Credito </p>
-    <form action="/my-handling-form-page" method="post" style="text-align:right">
-      <ul>
-         <label for="numero">Numero de tarjeta:</label>
-         <input type="number" id="number" number="num_tar">
-      </ul>
-       <ul>
-         <label for="Dias">Fecha de vencimiento:</label>
-         <input type="date" id="date" name="fecha_ven">
-        </ul>
-       <ul>
-         <label for="numero">Codigo de seguridad:</label>
-         <input type="number" id="number" number="cod_seg">
-      </ul>
-     </form>
-    <center>
-    <form action="TickAppy.html">
-      <input type="submit" value="Salir" />
-  </form>
-  <script src="main.js"></script>
-</center>
-  </body>
-</html>
-<!DOCTYPE html>
-<html lang="es">
-   <head>
-    <center>
-       <meta charset="TickAppy">
-       <meta name="description" content="TickAppy">
-       <meta name="keywords" content="HTML5, CSS3">
-       <header text-align="center">
-          <title>TickAppy</title>
-          <h1>Perfil</h1>
-      </header>
-    </head>
-    <body style="background-color: black;" style text="white">
-      <p>Nombre de usuario:(username)</p>
-      <p>Correo electronico:(address)</p>
-      <p>Password:(password)</p>
-      <form action="TickAppy.html">
-        <input type="submit" value="Salir" />
-    </form>
-    </center>
-   </body>
-</html> 
-<!DOCTYPE html>
-<html lang="es">
-   <head>
-    <center>
-       <meta charset="TickAppy">
-       <meta name="description" content="TickAppy">
-       <meta name="keywords" content="HTML5, CSS3">
-       <header text-align="center">
-        <link rel="stylesheet" href="css/pagoefe.css">
-          <title>TickAppy</title>
-          <h1>Pago en efectivo</h1>
-      </header>
-    </head>
-  <body style="background-color: black;" style text="white">
-    <p>El costo de su compra en efectivo sera de: </p><br>
-  </center>
-  <p style="text-align:left">Código de barras para poder cobrar en cualquier local:</p>
-  <img src="barras.jpg" style="align-img:right"><br>
-  <p style="text-align:left">Código QR para poder cobrar en cualquier local: </p>
-  <img src="codigo.jpg" style="align-img:left">
-  <center>
-    <form action="TickAppy.html">
-      <input type="submit" value="Salir" />
-  </form>
-  <script src="main.js"></script>
-</center>
-  </body>
-</html> 
-<!DOCTYPE html>
-<html lang="es">
-   <head>
-    <center>
-       <meta charset="TickAppy">
-       <meta name="description" content="TickAppy">
-       <meta name="keywords" content="HTML5, CSS3">
-       <header text-align="center">
-          <title>TickAppy</title>
-          <h1>Wallet</h1>
-      </header>
-    </head>
-  <body style="background-color: black;" style text="white">
-    <p>El costo de su compra con wallet sera de: (precio) <a href="https://explorer.solana.com/tx/42Ub9Wxu7JpsXqxA3aPAWWyWEFbJUZ2KFqYRCp2AHg4PhW2wnmAX94To5NZ7U4eSEftZiLdC312HiguyXZiBSLvw?cluster=devnet">Abrir wallet</a></p>
-    <form action="TickAppy.html">
-      <input type="submit" value="Salir" />
-  </form>
-<script src="main.js"></script>
-  </center>
-  </body>
-</html> 
+## 🛠️ Construido Con
+
+- [Python](https://www.python.org/) - Lenguaje de programación
+- [Django](https://www.djangoproject.com/) - Framework web
+- [PostgreSQL](https://www.postgresql.org/) - Sistema de base de datos
+- [Docker](https://www.docker.com/) - Contenedores para despliegue
+
+---
+
+## 🛣️ Roadmap
+
+- [ ] Agregar autenticación por redes sociales
+- [ ] Mejorar rendimiento con caching
+- [ ] Agregar interfaz de usuario responsiva
+- [ ] Panel de administración avanzado
+
+---
+
+## 🖇️ Contribuyendo
+
+Las contribuciones son lo que hacen a la comunidad de código abierto un lugar increíble para aprender, inspirar y crear. ¡Cualquier aporte es bienvenido!
+
+```md
+1. Haz fork del repositorio
+2. Crea una rama (`git checkout -b feature/NuevaCaracterística`)
+3. Commit de tus cambios (`git commit -m 'Agrega nueva característica'`)
+4. Push a tu rama (`git push origin feature/NuevaCaracterística`)
+5. Abre un Pull Request
+```
+
+Por favor, lee el [CONTRIBUTING.md](.github/CONTRIBUTING.md) para más detalles sobre cómo colaborar.
+
+---
+
+## 📖 Wiki
+
+Puedes encontrar más documentación y guías en nuestra [Wiki](https://github.com/your/project/wiki)
+
+---
+
+## 🛟 Soporte
+
+Si tienes algún problema o sugerencia, por favor abre un issue [aquí](https://github.com/your/project/issues).
+
+---
+
+## 📌 Versionado
+
+Usamos [Git](https://git-scm.com) para el control de versiones y seguimos [Semantic Versioning](https://semver.org/).
+
+Consulta las [etiquetas del repositorio](https://github.com/your/project/tags) para versiones disponibles.
+
+---
+
+## ✒️ Autores
+
+- **Brayan Diaz C** - _Trabajo inicial_ - [Brayan Diaz C](https://github.com/brayandiazc)
+
+Consulta también la lista de [contribuidores](https://github.com/your/project/contributors).
+
+---
+
+## 📄 Licencia
+
+Este proyecto está bajo la Licencia [MIT](LICENSE.md).
+
+---
+
+## ❤️ Apóyanos
+
+Si te gusta este proyecto y deseas apoyar su desarrollo, puedes hacerlo aquí:
+
+- [GitHub Sponsors](https://github.com/sponsors/brayandiazc)
+- [Ko-fi](https://ko-fi.com/brayandiazc)
+- [Patreon](https://patreon.com/brayandiazc)
+
+---
+
+## 🎁 Agradecimientos
+
+Estamos agradecidos por las contribuciones de la comunidad a este proyecto. Si encontraste valor en este trabajo, puedes:
+
+- Compartir el proyecto 📤
+- Invitarnos un café ☕
+- Iniciar un issue o PR 🙌
+- Dejar tu agradecimiento con un comentario 💬
+
+---
+
+⌨️ con ❤️ por [Brayan Diaz C](https://github.com/brayandiazc) 😊
